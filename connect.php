@@ -4,22 +4,10 @@
 	*/
 	class Conexion extends PDO
 	{	
-		/*variables para xampp
 		private $hostBd = 'localhost';
-		private $nombreBd = 'id18987531_sinfilas2020';
-		private $usuarioBd = 'id18987531_root';
-		private $passwordBd = 'F(y=cGNnOi7-QwL]';
-		*/
-		/*
-		private $hostBd = 'localhost';
-		private $nombreBd = 'proyecto_mapaitq';
-		private $usuarioBd = 'root';
-		private $passwordBd = '';
-		*/
-		private $hostBd = 'localhost';
-		private $nombreBd = 'id19780604_mapaguiaitq';
-		private $usuarioBd = 'id19780604_mapa';
-		private $passwordBd = '~U/Sv2@qvOE#dDsk';
+		private $nombreBd = 'mapaguiaitq';
+		private $usuarioBd = 'mapa';
+		private $passwordBd = 'root';
 		public function __construct()
 		{
 			try{
