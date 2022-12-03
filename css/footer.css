@@ -1,0 +1,29 @@
+.footer {
+    background-color: black;
+    color: white;
+    /* width: 100%; */
+    /* position: fixed; */
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 6px gray;
+    grid-area: footerG;
+    margin-top: 3rem;
+}
+.fst-foo {
+    /* background-color: tomato; */
+    border-right: 1px solid white;
+    padding: 5px 20px 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.snd-foo {
+    /* background-color: turquoise; */
+    padding: 5px 20px 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

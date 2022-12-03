@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"href="/css/mapa.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <title>Mapa Virtual ITQ</title>
+</head>
+<body>
+    <h2>Mapa virtual ITQ</h2>
+    <div id="map"></div>
+    <div class="div-center" id=formulario >
+        <input onclick="showMarkers()" id="button-path" type="button" class="button" value="Mostrar Lugares">
+        <input onclick="clean()" id="button-path" type="button" class="button" value="Limpiar Lugares">
+        <label for="origen">Origen:</label>
+        <select id="origen">
+        </select>
+
+        <label for="destino">Destino:</label>
+        <select id="destino">
+        </select>
+        <input onclick="getPath()" id="button-path" type="button" class="button" value="Generar ruta">
+        <input onclick="clearPath()" id="button-path" type="button" class="button" value="Limpiar ruta">
+    </div>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuXUTAdeQG_QTS6rko2A6pO7wfQhP8qqI&callback=initMap&v=weekly"></script>
+    <script type="text/javascript" src ="/js/mapa.js"></script>
+</body>
+</html>

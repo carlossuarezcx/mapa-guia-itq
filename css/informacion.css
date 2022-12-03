@@ -1,0 +1,40 @@
+/*.general {
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
+}
+.principal {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row; 
+}*/
+.div-mapa-marco {
+    width: 50rem;
+    /* background-color: bisque; */
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    
+}
+.info {
+    /* background-color: aqua; */
+    margin: 6rem 50px 50px 50px;
+    padding: 50px;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255, 255, 255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+}
+.infoA {
+    grid-area: leftG;
+}
+.infoB {
+    grid-area: rightG;
+}

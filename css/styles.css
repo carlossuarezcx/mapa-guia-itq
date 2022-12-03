@@ -1,0 +1,66 @@
+body {
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+}
+.nav-bar {
+    top: 0;
+    left: 0;
+    background-color: orange;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+    font-family: "Roboto";
+}
+.navi {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.header {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .mapa {
+    background-color: black;
+    margin: 50px;
+    padding: 50px;
+    color: aliceblue;
+} */
+.img-logos {
+    margin: 0 20px 0 20px;
+    width: 4rem;
+    height: auto;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+li {
+    list-style-type: none;
+    margin-left: 3rem;
+}
+header > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+li > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+

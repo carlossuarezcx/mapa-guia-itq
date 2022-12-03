@@ -1,0 +1,26 @@
+@media screen and (max-width: 1200px){
+    body{
+        display: grid;
+        grid-template-areas: 
+            "hearderG"
+            "centerG"
+            "leftG"
+            "rightG"
+            "footerG";
+    }
+    .contenedor-map {
+        margin-top: 6rem;
+    }
+    .nav-bar {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    .navi {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
+}

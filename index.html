@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="css/informacion.css" type="text/css">
+    <link rel="stylesheet" href="css/footer.css" type="text/css">
+    <link rel="stylesheet" href="css/photos.css" type="text/css">
+    <link rel="stylesheet" href="css/mapa.css" type="text/css">
+    <link rel="stylesheet" href="css/mediaQueries.css" type="text/css">
+    <link rel="icon" href="icons/ubicacion.png">
+    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <title>Mapa Guia ITQ</title>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <header class="header">
+            <img src="assets/logo_tecnm.png" alt="" class="img-logos">
+            <a href="index.html">INICIO</a>
+        </header>
+        <h1>Mapa Guia ITQ</h1>
+        <nav class="navi">
+            <ul><!--
+                <li><a href="https://queretaro.tecnm.mx/">ITQ</a></li>
+                <li><a href="https://www.tecnm.mx/">TECNM</a></li>-->
+                <li><a href="https://mapaguiaitq.000webhostapp.com/admin/login.php">Administradores</a></li>
+            </ul>
+            <img src="assets/logo_itq.png" alt="" class="img-logos">
+        </nav>
+    </div>
+    
+    <div class="info infoA">
+        <h2>Usted está actualmente en: </h2>
+        <p id="pdescx"></p>
+        <p></p>
+        <p></p>
+
+    </div>
+
+    <div class="contenedor-map">
+        
+        <div id="map" class="div-map"></div>
+        <div class="options">
+            <label for="origen">Origen:</label>
+            <select id="origen"></select>
+
+            <label for="destino">Destino:</label>
+            <select id="destino"></select>
+            <input onclick="getPath()" id="button-path" type="button" class="button" value="Generar ruta">
+        </div>
+    </div>
+    
+    <div class="info infoB">
+        <h2>Usted irá a: </h2>
+        <p id="pdescy"></p>
+
+    </div>
+    
+    <footer class="footer">
+        <div class="fst-foo">
+            <p>Tecnológico Nacional de México. Campus Querétaro</p>
+        </div>
+        <div class="snd-foo">
+            <p>Av. Tecnológico s/n, Centro, 76000 Santiago de Querétaro, Qro. (442 227 4400)</p>
+        </div>
+    </footer>
+    
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuXUTAdeQG_QTS6rko2A6pO7wfQhP8qqI&callback=initMap&v=weekly"></script>
+    <script type="text/javascript" src ="js/mapa.js"></script>
+</body>
+</html>

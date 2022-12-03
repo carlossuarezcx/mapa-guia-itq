@@ -1,0 +1,12 @@
+.forms {
+    display: flex;
+    flex-direction: row;
+    /*background-color: aqua;*/
+}
+select {
+    margin: 5px;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: rgb(6, 39, 136);
+    color: white;
+}
